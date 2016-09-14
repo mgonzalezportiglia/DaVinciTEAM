@@ -1,0 +1,50 @@
+html {
+	font-family: arial;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	color: #D4893D;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+header {
+	background-color: #D4893D;
+	padding: 10px 10%;
+	text-align: right;
+}
+
+header a {
+	color: #fff;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	font-size: 19px;
+}
+.libro{
+	background-color: #eee;
+	padding: 15px;
+	margin: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	display: inline-block;
+}
+.libro img{
+	border-radius: 5px;
+}
+main{
+	text-align: center;
+}
+section{
+	padding: 50px 10%;
+	font-size: 20px;
+}
+#home-1{
+	background-color: #ad7522;
+}
