@@ -1,0 +1,1264 @@
+<html>
+	<head>
+		<title>
+			Da Vinci Juegos
+		</title>
+		<link href="styles/common.css" rel="stylesheet">
+		<link href="styles/index.css" rel="stylesheet">
+		<link href="styles/responsive.css" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	  	<!-- ESTO ES JQUERY! -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="scripts/common.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<!-- ################ CABECERA DE LA PAGINA ####################-->
+		<header>
+			<h1 class="animated bounce">Da Vinci Series</h1>
+		</header>
+
+		<!-- ######### CUERPO DE LA PAGINA (LO PRINCIPAL) ####################-->
+		<main>
+			<a href="#" id="volver-arriba"><img class="flecha-arriba" src="images/flecha-arriba.png"></a>
+			<!-- ######### SECCION LIBRO ####################-->
+			<section id="home-01">
+				<div id="cont-boton-top">
+					<h1>¿Qué desea ver?</h1><!-- AGREGAR LOS HR A LOS H1-->
+					<a href="#home-03">
+					<button class="boton-top" id="boton-top-1">Películas</button>
+					</a>
+					<a href="#home-04">
+					<button class="boton-top" id="boton-top-2">Series</button>
+					</a>
+				</div>
+				<!-- ######### COMIENZO DEL CARROUSEL ####################-->
+				<div id="carousel">
+
+					<div id="botones">
+						<button class="color-boton selected-btt" id="boton-1">1</button>
+						<button class="color-boton" id="boton-2">2</button>
+						<button class="color-boton" id="boton-3">3</button>
+					</div>
+					<div class="carousel-item selected" id="item-1" style="display: block;">
+						<div class="img" style="background-image: url('images/serie-1.jpg');">
+							<div class="info-serie">
+								<h1>Dar Devil</h1><br>
+								<p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>	
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item" id="item-2">
+						<div class="img" style="background-image: url('images/serie-2.jpg');">
+							<div class="info-serie">
+								<h1>Jessica</h1><br>
+								<p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>	
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item" id="item-3">
+						<div class="img" style="background-image: url('images/serie-3.jpg');">
+							<div class="info-serie">
+								<h1>Falsh, Supergirl...</h1><br>
+								<p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>	
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<!-- ######### SECCION NOTICIAS ####################-->
+			<section id="home-02">
+				<div id="cont-noti">
+					<div id="cont-noticias">
+						<h1>Ultimas Noticias</h1>
+						<!-- ######### FILA 1 ####################-->
+						<!-- AGREGAR HOVER CON INFO-->
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<!-- ######### FIN FILA 1 ####################-->
+						<!-- ######### FILA 2 ####################-->
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<!-- ######### FIN FILA 2 ####################-->
+						<!-- ######### FILA 3 ####################-->
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<div class="cont-hover" onmouseover="$(this).addClass('cont-noticia-hover');" onmouseout="$(this).removeClass('cont-noticia-hover');">
+							<figure onmouseover="$(this).addClass('sacar-imagen');" onmouseout="$(this).removeClass('sacar-imagen');" style="background-image: url('images/noticia-1.jpg');">
+								<span class="texto-hover">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum</span>
+							</figure>
+						</div>
+						<!-- ######### FIN FILA 3 ####################-->
+					</div>
+				</div>
+			</section>
+			<!-- ######### SECCION PELICULAS ####################-->
+			<section id="home-03">
+				<div class="scrollmenu">
+					<h1>Peliculas mas vistas</h1>
+					<div id="botones-scroll">
+						<button id="scroll-iz-1" class="boton-circulo" style="left:20;"><img class="" src="images/flecha-left.png"></button>
+						<button id="scroll-de-2" class="boton-circulo" style="right:20;"><img class="" src="images/flecha-right.png"></button>
+					</div>
+					<div id="cont-peli-1" class="contScroll" style="display: block;">
+					  	<a href="#home" onclick="abrirVentana('contenedor-peli-1');"><img class="img-peli" src="images/peli-1.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a name="peli-2" href="#home" onclick="abrirVentana('contenedor-peli-2');"><img class="img-peli" src="images/peli-2.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a name="peli-3" href="#home" onclick="abrirVentana('contenedor-peli-3');"><img class="img-peli" src="images/peli-3.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a name="peli-4" href="#home" onclick="abrirVentana('contenedor-peli-4');"><img class="img-peli" src="images/peli-4.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					</div>
+					<div id="cont-peli-2" class="contScroll" style="display: none;">
+					  	<a href="#home" onclick="abrirVentana('contenedor-peli-5');"><img class="img-peli" src="images/peli-5.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a href="#home" onclick="abrirVentana('contenedor-peli-6');"><img class="img-peli" src="images/peli-6.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a href="#home" onclick="abrirVentana('contenedor-peli-7');"><img class="img-peli" src="images/peli-7.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a href="#home" onclick="abrirVentana('contenedor-peli-8');"><img class="img-peli" src="images/peli-8.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					</div>
+					<div id="cont-peli-3" class="contScroll" style="display: none;">
+					  	<a href="#home"><img class="img-peli" src="images/peli-9.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a href="#home"><img class="img-peli" src="images/peli-10.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a href="#home"><img class="img-peli" src="images/peli-11.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a href="#home"><img class="img-peli" src="images/peli-12.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>	
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					</div>
+				</div>
+			</section>
+			<!-- ######### SECCION SERIES ####################-->
+			<section id="home-04">
+				<div class="scrollmenu">
+					<h1>Series mas vistas</h1>
+					<div id="botones-scroll">
+						<button id="scroll-left-1" class="boton-circulo" style="left:20;"><img class="" src="images/flecha-left.png"></button>
+						<button id="scroll-right-2" class="boton-circulo" style="right:20;"><img class="" src="images/flecha-right.png"></button>
+					</div>
+					<div id="cont-serie-1" class="contSerie" style="display: block;">
+					  	<a href="#home" onclick="abrirVentana('contenedor-serie-1');"><img class="img-peli" src="images/serie-1.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a href="#home" onclick="abrirVentana('contenedor-serie-2');"><img class="img-peli" src="images/serie-2.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a href="#home" onclick="abrirVentana('contenedor-serie-3');"><img class="img-peli" src="images/serie-3.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a href="#home" onclick="abrirVentana('contenedor-serie-4');"><img class="img-peli" src="images/serie-4.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					</div>
+					<div id="cont-serie-2" class="contSerie" style="display: none;">
+					  	<a href="#home" onclick="abrirVentana('contenedor-serie-5');"><img class="img-peli" src="images/serie-5.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a href="#home" onclick="abrirVentana('contenedor-serie-6');"><img class="img-peli" src="images/serie-6.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a href="#home" onclick="abrirVentana('contenedor-serie-7');"><img class="img-peli" src="images/serie-7.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a href="#home" onclick="abrirVentana('contenedor-serie-8');"><img class="img-peli" src="images/serie-8.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					</div>
+					<div id="cont-serie-3" class="contSerie" style="display: none;">
+					  	<a href="#home"><img class="img-peli" src="images/serie-9.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a href="#home"><img class="img-peli" src="images/serie-10.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a href="#home"><img class="img-peli" src="images/serie-11.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					  	<a href="#home"><img class="img-peli" src="images/serie-12.jpg">
+					  		<div class="hola">
+					  			<p>hd</p>
+					  		</div>
+					  		<span class="info-hover">
+					  			<h1 class="info-titu-hover">titu pelicula</h1>
+					  			<img class="" src=""> <!-- puntuacion -->
+					  		</span>
+					  	</a>
+					</div>
+				</div>
+			</section>
+			<!-- ######### SECCION ACORDEON ####################-->
+			<section>
+				<div class="acordeon">
+					<ul id="lista-acordeon">
+						<li class="slide1">
+							<span class="info-serie">dada</span>
+						</li>
+						<li class="slide2">
+							<span class="info-serie">Aca pones lo que queres</span>
+						</li>
+						<li class="slide3">
+							<span class="info-serie">dada</span>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- ######### DIV ESCONDIDO (VIDEOS E INFO DE LAS PELICULAS) ####################-->
+			<!-- ########## ventana PELI-1 ######### -->
+			<div id="contenedor-peli-1" class="contenedor-peli" style="display:none;" onclick="cerrarVentana();">
+				<button class="cerrar-ventana">
+					<img class="cruz" src="images/close-button.png">
+				</button>
+				<article>
+					<a href="#home"><img class="img-peli" src="images/peli-1.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					 </a>
+					 <p class="roberto">
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 </p>
+					 <div class="cont-video">
+					 	<h1>Mira el Trailer</h1><br>
+					 	<video controls>
+						  	<source src="video/Rapido&Furioso.mp4" type="video/mp4">
+						</video>
+					 </div>
+					 <button class="btt-ver-pelicula">Ver Pelicula</button>
+				</article>
+			</div>
+			<!-- ########## ventana PELI-2 ######### -->
+			<div id="contenedor-peli-2" class="contenedor-peli" style="display:none;" onclick="cerrarVentana();">
+				<button class="cerrar-ventana">
+					<img class="cruz" src="images/close-button.png">
+				</button>
+				<article>
+					<a href="#home"><img class="img-peli" src="images/peli-2.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					 </a>
+					 <p class="roberto">
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 </p>
+					 <div class="cont-video">
+					 	<h1>Mira el Trailer</h1><br>
+					 	<video controls>
+						  	<source src="video/Rapido&Furioso.mp4" type="video/mp4">
+						</video>
+					 </div>
+				</article>
+			</div>
+			<!-- ########## ventana PELI-3 ######### -->
+			<div id="contenedor-peli-3" class="contenedor-peli" style="display:none;" onclick="cerrarVentana();">
+				<button class="cerrar-ventana">
+					<img class="cruz" src="images/close-button.png">
+				</button>
+				<article>
+					<a href="#home"><img class="img-peli" src="images/peli-3.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					 </a>
+					 <p class="roberto">
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 </p>
+					 <div class="cont-video">
+					 	<h1>Mira el Trailer</h1><br>
+					 	<video controls>
+						  	<source src="video/Rapido&Furioso.mp4" type="video/mp4">
+						</video>
+					 </div>
+				</article>
+			</div>
+			<!-- ########## ventana PELI-4 ######### -->
+			<div id="contenedor-peli-4" class="contenedor-peli" style="display:none;" onclick="cerrarVentana();">
+				<button class="cerrar-ventana">
+					<img class="cruz" src="images/close-button.png">
+				</button>
+				<article>
+					<a href="#home"><img class="img-peli" src="images/peli-4.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					 </a>
+					 <p class="roberto">
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 </p>
+					 <div class="cont-video">
+					 	<h1>Mira el Trailer</h1><br>
+					 	<video controls>
+						  	<source src="video/Rapido&Furioso.mp4" type="video/mp4">
+						</video>
+					 </div>
+				</article>
+			</div>
+			<!-- ########## ventana PELI-5 ######### -->
+			<div id="contenedor-peli-5" class="contenedor-peli" style="display:none;" onclick="cerrarVentana();">
+				<button class="cerrar-ventana">
+					<img class="cruz" src="images/close-button.png">
+				</button>
+				<article>
+					<a href="#home"><img class="img-peli" src="images/peli-5.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					 </a>
+					 <p class="roberto">
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 </p>
+					 <div class="cont-video">
+					 	<h1>Mira el Trailer</h1><br>
+					 	<video controls>
+						  	<source src="video/Rapido&Furioso.mp4" type="video/mp4">
+						</video>
+					 </div>
+				</article>
+			</div>
+			<!-- ########## ventana PELI-6 ######### -->
+			<div id="contenedor-peli-6" class="contenedor-peli" style="display:none;" onclick="cerrarVentana();">
+				<button class="cerrar-ventana">
+					<img class="cruz" src="images/close-button.png">
+				</button>
+				<article>
+					<a href="#home"><img class="img-peli" src="images/peli-6.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					 </a>
+					 <p class="roberto">
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 </p>
+					 <div class="cont-video">
+					 	<h1>Mira el Trailer</h1><br>
+					 	<video controls>
+						  	<source src="video/Rapido&Furioso.mp4" type="video/mp4">
+						</video>
+					 </div>
+				</article>
+			</div>
+			<!-- ########## ventana PELI-7 ######### -->
+			<div id="contenedor-peli-7" class="contenedor-peli" style="display:none;" onclick="cerrarVentana();">
+				<button class="cerrar-ventana">
+					<img class="cruz" src="images/close-button.png">
+				</button>
+				<article>
+					<a href="#home"><img class="img-peli" src="images/peli-7.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					 </a>
+					 <p class="roberto">
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 </p>
+					 <div class="cont-video">
+					 	<h1>Mira el Trailer</h1><br>
+					 	<video controls>
+						  	<source src="video/Rapido&Furioso.mp4" type="video/mp4">
+						</video>
+					 </div>
+				</article>
+			</div>
+			<!-- ########## ventana PELI-8 ######### -->
+			<div id="contenedor-peli-8" class="contenedor-peli" style="display:none;" onclick="cerrarVentana();">
+				<button class="cerrar-ventana">
+					<img class="cruz" src="images/close-button.png">
+				</button>
+				<article>
+					<a href="#home"><img class="img-peli" src="images/peli-8.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					 </a>
+					 <p class="roberto">
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 </p>
+					 <div class="cont-video">
+					 	<h1>Mira el Trailer</h1><br>
+					 	<video controls>
+						  	<source src="video/Rapido&Furioso.mp4" type="video/mp4">
+						</video>
+					 </div>
+				</article>
+			</div>
+			<!-- ######### DIV ESCONDIDO (VIDEOS E INFO DE LAS SERIES) ####################-->
+			<!-- ########## ventana SERIE-1 ######### -->
+			<div id="contenedor-serie-1" class="contenedor-peli" style="display:none;" onclick="cerrarVentana();">
+				<button class="cerrar-ventana">
+					<img class="cruz" src="images/close-button.png">
+				</button>
+				<article>
+					<a href="#home"><img class="img-peli" src="images/serie-1.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					 </a>
+					 <p class="roberto">
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 </p>
+					 <div class="cont-video">
+					 	<h1>Mira el Trailer</h1><br>
+					 	<video controls>
+						  	<source src="video/Rapido&Furioso.mp4" type="video/mp4">
+						</video>
+					 </div>
+				</article>
+			</div>
+			<!-- ########## ventana SERIE-2 ######### -->
+			<div id="contenedor-serie-2" class="contenedor-peli" style="display:none;" onclick="cerrarVentana();">
+				<button class="cerrar-ventana">
+					<img class="cruz" src="images/close-button.png">
+				</button>
+				<article>
+					<a href="#home"><img class="img-peli" src="images/serie-2.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					 </a>
+					 <p class="roberto">
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 </p>
+					 <div class="cont-video">
+					 	<h1>Mira el Trailer</h1><br>
+					 	<video controls>
+						  	<source src="video/Rapido&Furioso.mp4" type="video/mp4">
+						</video>
+					 </div>
+				</article>
+			</div>
+			<!-- ########## ventana SERIE-3 ######### -->
+			<div id="contenedor-serie-3" class="contenedor-peli" style="display:none;" onclick="cerrarVentana();">
+				<button class="cerrar-ventana">
+					<img class="cruz" src="images/close-button.png">
+				</button>
+				<article>
+					<a href="#home"><img class="img-peli" src="images/serie-3.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					 </a>
+					 <p class="roberto">
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 </p>
+					 <div class="cont-video">
+					 	<h1>Mira el Trailer</h1><br>
+					 	<video controls>
+						  	<source src="video/Rapido&Furioso.mp4" type="video/mp4">
+						</video>
+					 </div>
+				</article>
+			</div>
+			<!-- ########## ventana SERIE-4 ######### -->
+			<div id="contenedor-serie-4" class="contenedor-peli" style="display:none;" onclick="cerrarVentana();">
+				<button class="cerrar-ventana">
+					<img class="cruz" src="images/close-button.png">
+				</button>
+				<article>
+					<a href="#home"><img class="img-peli" src="images/serie-4.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					 </a>
+					 <p class="roberto">
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 </p>
+					 <div class="cont-video">
+					 	<h1>Mira el Trailer</h1><br>
+					 	<video controls>
+						  	<source src="video/Rapido&Furioso.mp4" type="video/mp4">
+						</video>
+					 </div>
+				</article>
+			</div>
+			<!-- ########## ventana SERIE-5 ######### -->
+			<div id="contenedor-serie-5" class="contenedor-peli" style="display:none;" onclick="cerrarVentana();">
+				<button class="cerrar-ventana">
+					<img class="cruz" src="images/close-button.png">
+				</button>
+				<article>
+					<a href="#home"><img class="img-peli" src="images/serie-5.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					 </a>
+					 <p class="roberto">
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 </p>
+					 <div class="cont-video">
+					 	<h1>Mira el Trailer</h1><br>
+					 	<video controls>
+						  	<source src="video/Rapido&Furioso.mp4" type="video/mp4">
+						</video>
+					 </div>
+				</article>
+			</div>
+			<!-- ########## ventana SERIE-6 ######### -->
+			<div id="contenedor-serie-6" class="contenedor-peli" style="display:none;" onclick="cerrarVentana();">
+				<button class="cerrar-ventana">
+					<img class="cruz" src="images/close-button.png">
+				</button>
+				<article>
+					<a href="#home"><img class="img-peli" src="images/serie-6.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					 </a>
+					 <p class="roberto">
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 </p>
+					 <div class="cont-video">
+					 	<h1>Mira el Trailer</h1><br>
+					 	<video controls>
+						  	<source src="video/Rapido&Furioso.mp4" type="video/mp4">
+						</video>
+					 </div>
+				</article>
+			</div>
+			<!-- ########## ventana SERIE-7 ######### -->
+			<div id="contenedor-serie-7" class="contenedor-peli" style="display:none;" onclick="cerrarVentana();">
+				<button class="cerrar-ventana">
+					<img class="cruz" src="images/close-button.png">
+				</button>
+				<article>
+					<a href="#home"><img class="img-peli" src="images/serie-7.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					 </a>
+					 <p class="roberto">
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 </p>
+					 <div class="cont-video">
+					 	<h1>Mira el Trailer</h1><br>
+					 	<video controls>
+						  	<source src="video/Rapido&Furioso.mp4" type="video/mp4">
+						</video>
+					 </div>
+				</article>
+			</div>
+			<!-- ########## ventana SERIE-8 ######### -->
+			<div id="contenedor-serie-8" class="contenedor-peli" style="display:none;" onclick="cerrarVentana();">
+				<button class="cerrar-ventana">
+					<img class="cruz" src="images/close-button.png">
+				</button>
+				<article>
+					<a href="#home"><img class="img-peli" src="images/serie-8.jpg">
+					  	<div class="hola">
+					  		<p>hd</p>
+					  	</div>
+					 </a>
+					 <p class="roberto">
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 	dadadasasassa dadad sasa dsa sdwasdaa sdadsadada 
+					 </p>
+					 <div class="cont-video">
+					 	<h1>Mira el Trailer</h1><br>
+					 	<video controls>
+						  	<source src="video/Rapido&Furioso.mp4" type="video/mp4">
+						</video>
+					 </div>
+				</article>
+			</div>
+		</main>
+		<footer>
+			<div class="">
+				<h1 class="animated bounce">Da Vinci Series</h1>
+				<br>
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-pinterest-p"></i>
+			</div>
+			<div class="">
+				<h1 class="">Suscribite</h1>
+				<br>
+				<p><strong>Recibi nuestras novedades!!</strong><br>Brindanos informacion de lo que queres ver y nosotros lo actualizamos a la brevedad.</p>
+				<form>
+				    <input name="email" type="email" placeholder="davinci@mail.com">
+				    <button type="submit">Enviar</button>
+			    </form>
+			</div>
+			<div class="link-pagina-footer">
+				<h1 class="">Links utiles</h1>
+				<br>
+				<a href="#">Home</a>
+				<a href="#">Peliculas</a>
+				<a href="#">Series</a>
+				<a href="#">Noticias</a>
+			</div>
+			<div class="link-pagina-footer-2">
+				<h1 class="">Mas vistos</h1>
+				<br>
+				<a href="#">Escuadrón suicida</a>
+				<a href="#">Rapido y Furioso 10</a>
+				<a href="#">El rey leon</a>
+				<a href="#">Breaking bad</a>
+				<a href="#">Juego de tronos</a>
+				<a href="#">Prision break</a>
+			</div>	
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,170 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html {
+	font-family: arial;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	background-color: #ddd !important;
+}
+a {
+	color: #D4893D;
+	text-decoration: none;
+	font-weight: bold;
+}
+footer{
+	clear: both;
+	min-height: 300px;
+	background-color: #187e37;
+	padding: 10px 10%;
+}
+header {
+	background-color: #22b14c;
+	padding: 10px 10%;
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999999;
+}
+main{
+	width: 100%;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 19px;
+}
+main{
+	text-align: center;
+}
+section{
+	width: 100%;
+}
+.acordeon{
+	width: 970px;
+	height: 400px;
+	margin: 50px auto auto auto;
+	border: solid 5px black;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+	overflow: hidden;	
+}
+.acordeon li{
+	width: 320px;
+	height: 400px;
+	display: block;
+	float: left;
+	list-style: none;
+	box-shadow: 0px 0px 5px 2px white;
+	-webkit-transition: all 0.5s ease-in-out;
+	-noz-transition: all 0.5s ease-in-out;
+	-ns-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	position: relative;
+}
+.acordeon:hover li{
+	width: 120px;
+}
+.acordeon li:hover{
+	width: 840px;
+}
+.acordeon ul{
+	width: 2000px;
+}
+.slide1{
+	background-image: url(../images/serie-1.jpg);
+}
+.slide2{
+	background-image: url(../images/serie-2.jpg);
+}
+.slide3{
+	background-image: url(../images/serie-3.jpg);
+}
+#lista-acordeon{
+	list-style: none;
+    text-align: start;
+}
+.info-serie{
+	position: absolute;
+    bottom: 5%;
+}
+/* CODIGO DEL FOOTER */
+footer div{
+	float: left;
+	width: 25%;
+}
+footer h1{
+	font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: initial;
+    font-family: fantasy;
+}
+footer .fa{
+	font-size: 20px;
+    margin: 0px 6px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 14px;
+    cursor: pointer;
+	transition: 1s;
+}
+footer .fa:hover{
+	background-color: #dff0d8;
+	transition: 1s;
+}
+footer p {
+	width: 60%;
+    text-align: left;
+}
+.link-pagina-footer a {
+    display: table;
+    font-size: 18px;
+    color: #3fa6ff;
+    font-family: monospace;
+}
+.link-pagina-footer a:hover{
+	color: #dff0d8;
+	text-decoration: none;
+}
+footer button,input{
+	display: block;
+	min-width: 200px;
+	min-height: 30px;
+	border-radius: 5px;
+	border: 2px solid;
+	margin: 10px 0px;
+}
+footer button{
+	background-color: #dff0d8;
+	transition: 1s;
+	border-color: #3d423d;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+footer button:hover{
+	background-color: #3c763d;
+	color: #f5f5f5;
+	transition: 1s;
+}
+footer input{
+	padding-left: 5px;
+}
+.link-pagina-footer-2 a{
+	display: table;
+    font-size: 18px;
+    color: #dff0d8;
+    font-family: monospace;
+}
+.link-pagina-footer-2 a:hover{
+	color: #3fa6ff;
+	text-decoration: none;
+}
+/* FIN CODIGO DEL FOOTER */

@@ -1,0 +1,380 @@
+#carousel {
+	position: relative;
+	height: 300px;
+	width: 100%;
+    margin: 0px auto;
+}
+
+.carousel-item {
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+#carousel .img {
+	height: 100%;
+	background-size: cover;
+}
+
+#botones {
+	position: absolute;
+	bottom: 5px;
+	left: 5%;
+	z-index:3;
+}
+#botones button{
+	border-radius: 5px;
+	border: 2px solid #479848;
+	width: 40px;
+	height: 15px;
+	cursor: pointer;
+}
+.color-boton{
+	background-color: rgba(204, 204, 204, 0.5);
+}
+.selected-btt{
+	background-color: #479848;
+}
+.img .info-serie{
+	width: 500px;
+	text-align: justify;
+	padding: 10px 5%;
+}
+.info-serie p{
+	width: 100%;
+	height: auto;
+	padding: 10px 5%;
+	padding-left: 0px;
+	background-color: rgba(170, 170, 170, 0.5);
+}
+#cont-boton-top{
+	background-color: #333;
+	width: 100%;
+	padding: 50px 10%;
+}
+section h1{
+	color: #f2f2f2;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+section{
+	clear: both;
+	padding: 0px 10%;
+}
+.boton-top{
+	width: 100%;
+	height: 50px;
+	color: #f2f2f2;
+	font-size: 16px;
+	background-color: #5abd54;
+	border-color: transparent;
+	border-radius: 6px;
+	box-shadow: 2px 2px 7px green;
+	margin: 8px 0px; 
+	text-transform: uppercase;
+}
+#cont-noticias{
+	background-color: #333;
+	padding: 50px 10%;
+	height: auto;
+    border: 5px solid #474c40;
+    border-top: none;
+    border-radius: 20px;
+    border-top-left-radius: initial;
+    border-top-right-radius: initial;
+}
+#cont-noticias figure{
+	width: 200px;
+    height: 125px;
+    padding: 0px 5px;
+	border-radius: 10px;
+	border: 2px solid grey;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+#cont-noticias div{
+	display: inline-block;
+}
+.sacar-imagen{
+	background-image: none !important;
+}
+.cont-hover{
+  position: relative;
+}
+.cont-noticia-hover{
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: #AAFF00;
+  border-radius: 10px;
+  transition:1s;
+}
+.texto-hover{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+    bottom: 0;
+	color: red;
+	opacity: 0;
+}
+.texto-hover:hover{
+	opacity: 1;
+	transition:1.5s;
+}
+/* SCROLL HORIZONTAL SECTION  */
+div.scrollmenu {
+    width: 100%;
+    min-height: 317px;
+    margin: 2% auto;
+    background-color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    padding: 5% 0px;
+    border: 5px solid #474c40;
+    border-radius: 20px;
+}
+.img-peli{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 50%;
+}
+div.scrollmenu a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 230px;
+    height: 230px;
+    margin: 0px 8px;
+    border-radius: 50%;
+    position: relative;
+}
+div.scrollmenu .hola{
+	width: 60px;
+    height: 60px;
+    background-color: green;
+    border-radius: 50%;
+    position: relative;
+    padding: 6% 15px;
+}
+div.scrollmenu .hola p{
+	display: table-row;
+    color: red;
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+#botones-scroll button{
+	position: absolute;
+	background-color: transparent;
+	border-color: transparent;
+}
+.boton-circulo{
+    top: 50%;
+    margin-top: -50px;
+}
+.contScroll{
+	display: inline-block;
+}
+.contSerie{
+	display: inline-block;
+}
+.scrollmenu h1{
+	font-size: 20px;
+	margin-bottom: 60px;
+}
+/* HOVER PELIS  */
+.contScroll .info-hover{
+	position: absolute;
+    left: 50%;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+    min-width: 300px;
+    background-color: yellow;
+    border-radius: 5px;
+    color: red;
+    opacity: 0;
+    z-index: 999;
+    padding: 5px 10%;
+}
+.contScroll .info-hover:hover{
+	opacity: 1;
+	transition:1.5s;
+}
+.contScroll .info-hover img{
+	text-align: start;
+}
+.info-titu-hover{
+	font-size: 14px !important;
+    color: blue;
+    margin: 10px 0px !important;
+    text-transform: uppercase;
+    text-align: start;
+}
+/* HOVER SERIES  */
+.contSerie .info-hover{
+	position: absolute;
+    left: 50%;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+    min-width: 300px;
+    background-color: yellow;
+    border-radius: 5px;
+    color: red;
+    opacity: 0;
+    z-index: 999;
+    padding: 5px 10%;
+}
+.contSerie .info-hover:hover{
+	opacity: 1;
+	transition:1.5s;
+}
+.contSerie .info-hover img{
+	text-align: start;
+}
+/* FIN SCROLL HORIZONTAL SECTION  */
+/* DIV ESCONDIDO (VIDEOS E INFO DE LAS PELICULAS) */
+.contenedor-peli{
+	z-index: 99999999;
+    width: 80%;
+    max-height: 500px;
+    background-color: yellow;
+    border-radius: 50px;
+    box-shadow: 6px 6px 4px rgba(136, 136, 136, 0.57);
+    position: fixed;
+    top: 30px;
+    bottom: 0;
+    margin: 0px auto;
+    right: 0;
+    left: 0;
+    padding: 30px 12%;
+    overflow: auto;
+}
+.contenedor-peli article a{
+	display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 230px;
+    height: 230px;
+    margin: 0px 8px;
+    border-radius: 50%;
+    position: relative;
+}
+.contenedor-peli article a .hola{
+	width: 60px;
+    height: 60px;
+    background-color: green;
+    border-radius: 50%;
+    position: relative;
+    padding: 6% 15px;
+}
+.contenedor-peli article a p{
+	display: table-row;
+    color: red;
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.contenedor-peli article a{
+	background-color: white;
+}
+.contenedor-peli article .roberto{
+	font-size: 16px;
+    text-align: center;
+    margin: 30px 0px;
+    margin-bottom: 0px;
+    font-style: italic;
+}
+.cont-video{
+    height: auto;
+    padding: 10px 10%;
+    text-align: center;
+}
+.cont-video h1{
+	margin-top: 0px;
+    font-size: 22px;
+    color: red;
+}
+.cont-video video{
+	width: 100%;
+	height: 500px;
+	border-radius: 20px;
+}
+.cerrar-ventana{
+	position: absolute;
+    width: 30px;
+    height: auto;
+    right: 2%;
+    background: transparent;
+    border: transparent;
+}
+.cerrar-ventana img{
+	width: 100%;
+}
+article .btt-ver-pelicula{
+	margin-top: 20px;
+    background-color: #64d264;
+    border: 2px solid #0bab0b;
+    width: 300px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+article .btt-ver-pelicula:hover{
+	background-color: #3c763d;
+	border-color: #1ea020;
+} 
+/* FIN DIV ESCONDIDO (VIDEOS E INFO DE LAS PELICULAS) */
+/* BOTON VOLVE ARRIBA */
+#volver-arriba {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    border-radius: 35px;
+    display: none;
+    transition: all 0.3s ease;
+}
+#volver-arriba img {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 0px;
+    top: 14px;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease;
+}
+#volver-arriba:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#volver-arriba:hover img {
+    color: #fff;
+    top: 10px;
+}
+/* FIN BOTON VOLVE ARRIBA */
